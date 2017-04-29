@@ -8,7 +8,7 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #111111;
+  color: #777777;
 }
 .text-primary {
   color: #fed136;
@@ -228,7 +228,7 @@ fieldset[disabled] .btn-xl.active {
 header {
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -237,7 +237,6 @@ header {
   text-align: center;
   color: white;
 }
-
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -303,6 +302,8 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
+
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
