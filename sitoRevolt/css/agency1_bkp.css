@@ -157,28 +157,24 @@ a.active, a:active, a:focus, a:hover {
 
 	.fase1 {
     background-image:  url("../img/fase1.png");
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat:no-repeat;
-    background-position:left top;
 }
      #fase2 {
     background-image:  url("../img/fase2.png");
-    background-size: 100% 100%;
+    background-size:  100%;
     background-repeat:no-repeat;
-    background-position:left top;
 }
     #fase3 {
     background-image:  url("../img/fase3.png");
-    background-size: 100% 100%;
+    background-size:  100%;
     background-repeat:no-repeat;
-    background-position:left top;
 
 }
     #fase4 {
     background-image:  url("../img/fase4.png");
-    background-size: 100% 100%;
+    background-size:  100%;
     background-repeat:no-repeat;
-    background-position:left top;
 }
     section {
     padding: 0;
@@ -197,7 +193,7 @@ a.active, a:active, a:focus, a:hover {
 
  .write-inside {
     font-family: 'Rajdhani',  sans-serif;
-    font-weight: 900;
+    font-weight: 500;
      font-size: medium;
 }
 
@@ -317,7 +313,7 @@ section h3.section-subheading {
 }
  .write-inside {
     font-family: 'Rajdhani',  sans-serif;
-    font-weight: 900;
+    font-weight: 500;
      font-size: xx-large;
 }
 
