@@ -153,6 +153,56 @@ a.active, a:active, a:focus, a:hover {
     font-size: 1.5em;
 }
 }
+@media(max-width:500px) {
+
+	.fase1 {
+    background-image:  url("../img/fase1.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    padding-bottom: 60px;
+}
+     #fase2 {
+    background-image:  url("../img/fase2.png");
+    background-size:  100%;
+    background-repeat:no-repeat;
+    padding-bottom:90px;
+}
+    #fase3 {
+    background-image:  url("../img/fase3.png");
+    background-size:  100%;
+    background-repeat:no-repeat;
+    padding-bottom: 60px;
+    
+}
+    #fase4 {
+    background-image:  url("../img/fase4.png");
+    background-size:  100%;
+    background-repeat:no-repeat;
+    padding-bottom: 80px;
+}
+    section {
+    padding: 0;
+}
+    .stacco {
+    padding-bottom: 35px;
+    }
+    .separator {
+    background-color: #222222;
+    padding: 0;
+    }
+    .separator-char {
+    font-family:  'Rajdhani',  sans-serif;
+    color:  red;
+    margin:0;
+}
+
+ .write-inside {
+    font-family: 'Rajdhani',  sans-serif;
+    font-weight: 500;
+     font-size: medium;
+}
+
+}
 header {
     background-image: url(../img/header-bg.jpg);
     background-repeat: no-repeat;
@@ -214,7 +264,8 @@ header .intro-text .intro-heading {
 section {
     padding: 100px 0;
 }
-}section h2.section-heading {
+}
+section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
@@ -228,6 +279,47 @@ section h3.section-subheading {
 @media (min-width:768px) {
     section {
     padding: 30px 0;
+}
+.fase1 {
+    background-image:  url("../img/fase1.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center center;
+}
+ #fase2 {
+    background-image:  url("../img/fase2.png");
+    background-size:  100% 100%;
+    background-attachment:  fixed;
+    background-position:  center center;
+}
+ #fase3 {
+    background-image:  url("../img/fase3.png");
+    background-size:  100% 100%;
+    background-attachment:  fixed;
+    background-position:  center center;
+}
+ #fase4 {
+    background-image:  url("../img/fase4.png");
+    background-size:  100% 100%;
+    background-attachment:  fixed;
+    background-position:  center center;
+}
+ .stacco {
+    padding-top: 200px;
+    padding-bottom:  200px;
+}
+ .separator {
+    background-color: #222222;
+     padding:  20px 0;
+ }
+ .separator-char {
+    font-family:  'Rajdhani',  sans-serif;
+    color:  red;
+}
+ .write-inside {
+    font-family: 'Rajdhani',  sans-serif;
+    font-weight: 500;
+     font-size: xx-large;
 }
 
 }.service-heading {
@@ -651,7 +743,27 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
-
+/*
+ .fase1 {
+    background-image:  url("../img/fase1.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: 
+center center;
+}
+/*
+ .separator {
+    background-color: #222222;
+     padding:  20px 0;
+ }
+ .separator-char {
+    font-family:  'Rajdhani',  sans-serif;
+    color:  red;
+}
+*/
+/*
+@media(min-width:768px){
+	
 .fase1 {
     background-image:  url("../img/fase1.png");
     background-size: 100% 100%;
@@ -680,20 +792,28 @@ img::-moz-selection {
     padding-top: 200px;
     padding-bottom:  200px;
 }
- .separator {
+
+}
+*/
+/*
+.separator {
     background-color: #222222;
      padding:  20px 0;
  }
  .separator-char {
     font-family:  'Rajdhani',  sans-serif;
     color:  red;
-}
+    }
+*/
+
+/*
+
  .write-inside {
     font-family: 'Rajdhani',  sans-serif;
     font-weight: 500;
      font-size: xx-large;
 }
-
+*/
  #cosafacciamo {
     font-size: 30px;
      font-family:  'Rajdhani',  sans-serif;
@@ -727,7 +847,12 @@ img::-moz-selection {
     font-weight:  600;
      padding-left: 10px;
 }
-
+/*
+ .stacco {
+    padding-top: 200px;
+    padding-bottom:  200px;
+}
+*/
  .pfooter {
     color: #f5f3ed;
 }
@@ -737,59 +862,6 @@ img::-moz-selection {
  #footerPadding {
     padding-right: 50px;
 }
-
-/*
-@media(max-width:500px) {
-
-	.fase1 {
-    background-image:  url("../img/fase1.png");
-    background-size: 100%;
-    background-repeat:no-repeat;
-    padding-bottom: 60px;
-}
-     #fase2 {
-    background-image:  url("../img/fase2.png");
-    background-size:  100%;
-    background-repeat:no-repeat;
-    padding-bottom:90px;
-}
-    #fase3 {
-    background-image:  url("../img/fase3.png");
-    background-size:  100%;
-    background-repeat:no-repeat;
-    padding-bottom: 60px;
-    
-}
-    #fase4 {
-    background-image:  url("../img/fase4.png");
-    background-size:  100%;
-    background-repeat:no-repeat;
-    padding-bottom: 80px;
-}
-    section {
-    padding: 0;
-}
-    .stacco {
-    padding-bottom: 35px;
-    }
-    .separator {
-    background-color: #222222;
-    padding: 0;
-    }
-    .separator-char {
-    font-family:  'Rajdhani',  sans-serif;
-    color:  red;
-    margin:0;
-}
-
- .write-inside {
-    font-family: 'Rajdhani',  sans-serif;
-    font-weight: 500;
-     font-size: medium;
-}
-
-}
-*/
 
  
 /* (48,  47,  47, 0.88) */
