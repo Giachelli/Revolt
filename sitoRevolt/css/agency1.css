@@ -484,7 +484,7 @@ footer span.copyright, footer ul.quicklinks {
     margin-bottom: 0;
 }
 @media (min-width:768px) {
-    .timeline: before {
+    .timeline:before {
     left: 50%}
 .timeline>li {
     margin-bottom: 100px;
