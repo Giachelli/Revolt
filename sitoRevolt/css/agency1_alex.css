@@ -17,14 +17,14 @@ body {
     font-weight: 700;
 }
 .text-muted {
-    color: #333;
+    color: black;
 }
 .text-primary, a {
     color: #f5f3ed;
 }
 p {
     font-size: 14px;
-    line-height: 1.75;
+    line-height: 1.5;
 }
 p.large {
     font-size: 16px;
@@ -129,8 +129,8 @@ a.active, a:active, a:focus, a:hover {
 }
 @media (min-width:768px) {
     .navbar-custom {
-        background-color: transparent;
-        padding: 25px 0;
+        background-color: #222;
+        padding: 10px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -162,7 +162,7 @@ a.active, a:active, a:focus, a:hover {
         padding-bottom: 400px;
     }
     #fase2 {
-        background-image:  url("../img/fase2_telefono.png");
+        background-image:  url("../img/fase2FINALE.png");
         background-size:  100%;
         background-repeat:no-repeat;
         padding-bottom:400px;
@@ -171,7 +171,7 @@ a.active, a:active, a:focus, a:hover {
         background-image:  url("../img/fase3_telefono.png");
         background-size:  100%;
         background-repeat:no-repeat;
-        padding-bottom: 400px;
+        padding-bottom: 100%;
 
     }
     #fase4 {
@@ -198,13 +198,16 @@ a.active, a:active, a:focus, a:hover {
 
     .write-inside {
         font-family: 'Rajdhani',  sans-serif;
-        font-weight: 500;
+        font-weight: 600;
         font-size: medium;
     }
-
+    
+    #testoSotto{
+	    margin-top:10%;
+    }
 }
 header {
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/headerNuvole.jpeg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -281,13 +284,13 @@ section h3.section-subheading {
         padding: 30px 0;
     }
     .fase1 {
-        background-image:  url("../img/fase1_desktop.png");
+        background-image:  url("../img/provafase_1Nuova.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
         background-position: center center;
     }
     #fase2 {
-        background-image:  url("../img/fase2.png");
+        background-image:  url("../img/nuovaFase2.jpg");
         background-size:  100% 100%;
         background-attachment:  fixed;
         background-position:  center center;
@@ -320,6 +323,10 @@ section h3.section-subheading {
         font-family: 'Rajdhani',  sans-serif;
         font-weight: 500;
         font-size: xx-large;
+    }
+    
+    h2.section-heading{
+	    padding-bottom:3%;
     }
 
 }.service-heading {
@@ -637,7 +644,6 @@ footer ul.quicklinks {
 }
 ul.social-buttons {
     margin-bottom: 0;
-    margin-left: 25px;
 }
 ul.social-buttons li a {
     display: block;
@@ -820,7 +826,7 @@ center center;
     color:  red;
 }
 #team {
-    padding: 130px 0;
+    padding: 5% 0;
 }
 #doveSiamo {
     padding: 0 0;
@@ -846,6 +852,7 @@ center center;
     font-size: xx-large;
     font-weight:  600;
     padding-left: 10px;
+    color:black;
 }
 /*
  .stacco {
