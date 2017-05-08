@@ -157,35 +157,40 @@ a.active, a:active, a:focus, a:hover {
 
     .fase1 {
         background-image:  url("../img/fase1telefono_nuova.png");
-        background-size: 100%;
+        background-size: 100% 100%;
         background-repeat:no-repeat;
-        padding-bottom: 24%;
+        background-position: left;
+        padding: 0px 0px;
     }
     #fase2 {
         background-image:  url("../img/fase2telefono_nuova.png");
-        background-size:  100%;
+        background-size:  100% 100%;
         background-repeat:no-repeat;
-        padding-bottom: 35%;
+        background-position: left;
+        padding: 0px 0px;
     }
     #fase3 {
         background-image:  url("../img/fase3_telefono.png");
-        background-size:  100%;
+        background-size:  100% 100%;
         background-repeat:no-repeat;
-        padding-bottom: 11%;
+        background-position: left;
+        padding: 0px 0px;
 
     }
     #fase4 {
         background-image:  url("../img/fase4_telefono.png");
-        background-size:  100%;
+        background-size:  100% 100%;
         background-repeat:no-repeat;
-        padding-bottom: 35%;
+        background-position: left;
+        padding: 0px 0px;
     }
     section {
         padding: 0;
     }
     .stacco {
-        padding-bottom: 34%;
+        padding-bottom: 100%;
         padding-top:63%;
+        padding-right: 20px;
     }
     .separator {
         background-color: #222222;
