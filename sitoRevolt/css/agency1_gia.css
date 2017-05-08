@@ -184,13 +184,13 @@ a.active, a:active, a:focus, a:hover {
         background-position: left;
         padding: 0px 0px;
     }
+
     section {
         padding: 0;
     }
     .stacco {
-        padding-bottom: 100%;
-        padding-top:63%;
         padding-right: 20px;
+        height: 100vh;
     }
     .separator {
         background-color: #222222;
@@ -207,9 +207,26 @@ a.active, a:active, a:focus, a:hover {
         font-weight: 600;
         font-size: medium;
     }
-    
-    #testoSotto{
-	    margin-top:23%;
+    #testoSottoFase1{
+	    margin-top: 102%;
+    }
+    #testoSottoFase2{
+	    margin-top: 102%;
+    }
+    #testoSottoFase3{
+	    margin-top:102%;
+    }
+    #testoSottoFase4{
+	    margin-top:102%;
+    }
+    .intro-scritta{
+	    font-family: 'Rajdhani',  sans-serif, Helvetica, Arial, sans-serif;
+        color: #222222;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px;
     }
 }
 header {
@@ -259,7 +276,7 @@ header .intro-text .intro-heading {
     }
     .intro-scritta{
 	    font-family: 'Rajdhani',  sans-serif, Helvetica, Arial, sans-serif;
-        color: #f5f3ed;
+        color: #222222;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 75px;
