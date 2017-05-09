@@ -9,7 +9,10 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    webkit-tap-highlight-color: #4CAF50;
+    -webkit-tap-highlight-color: #4CAF50;
+    -webkit-user-select: initial !important;
+    text-rendering: auto;
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 .btn-primary, .btn-xl, h1, h2, h3, h4, h5, h6 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -130,7 +133,7 @@ a.active, a:active, a:focus, a:hover {
 @media (min-width:768px) {
     .navbar-custom {
         background-color: #222;
-        padding: 10px 0;
+        padding: 0px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -159,32 +162,38 @@ a.active, a:active, a:focus, a:hover {
         background-image:  url("../img/fase1_telefono.png");
         background-size: 100% 100%;
         background-repeat:no-repeat;
-        padding-bottom: 400px;
+        background-position: left;
+        padding: 0px 0px;
     }
     #fase2 {
-        background-image:  url("../img/fase2FINALE.png");
-        background-size:  100%;
+        background-image:  url("../img/fase2_telefono.png");
+        background-size:  100% 100%;
         background-repeat:no-repeat;
-        padding-bottom:400px;
+        background-position: left;
+        padding: 0px 0px;
     }
     #fase3 {
         background-image:  url("../img/fase3_telefono.png");
-        background-size:  100%;
+        background-size:  100% 100%;
         background-repeat:no-repeat;
-        padding-bottom: 100%;
+        background-position: left;
+        padding: 0px 0px;
 
     }
     #fase4 {
         background-image:  url("../img/fase4_telefono.png");
-        background-size:  100%;
+        background-size:  100% 100%;
         background-repeat:no-repeat;
-        padding-bottom: 400px;
+        background-position: left;
+        padding: 0px 0px;
     }
+
     section {
         padding: 0;
     }
     .stacco {
-        padding-bottom: 35px;
+        padding-right: 20px;
+        height: 100vh;
     }
     .separator {
         background-color: #222222;
@@ -198,13 +207,35 @@ a.active, a:active, a:focus, a:hover {
 
     .write-inside {
         font-family: 'Rajdhani',  sans-serif;
-        font-weight: 600;
+        font-weight: 700;
         font-size: medium;
     }
-    
-    #testoSotto{
-	    margin-top:10%;
+    #testoSottoFase1{
+	    margin-top: 102%;
     }
+    #testoSottoFase2{
+	    margin-top: 102%;
+    }
+    #testoSottoFase3{
+	    margin-top:102%;
+    }
+    #testoSottoFase4{
+	    margin-top:102%;
+    }
+    .intro-scritta{
+	    font-family: 'Rajdhani',  sans-serif, Helvetica, Arial, sans-serif;
+        color: #222222;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px;
+        margin-top:100px;
+    }
+    .pfooter {
+    color: #f5f3ed;
+    margin-top: 25%;
+}
 }
 header {
     background-image: url(../img/headerNuvole.jpeg);
@@ -217,7 +248,8 @@ header {
     -o-background-size: cover;
     text-align: center;
     color: #fff;
-}
+    height: 95vh;
+    }
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -240,8 +272,8 @@ header .intro-text .intro-heading {
 }
 @media (min-width:639px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 27%;
+        padding-bottom: 18%;
     }
     header .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -249,6 +281,16 @@ header .intro-text .intro-heading {
         font-size: 40px;
         line-height: 40px;
         margin-bottom: 25px;
+    }
+    .intro-scritta{
+	    font-family: 'Rajdhani',  sans-serif, Helvetica, Arial, sans-serif;
+        color: #222222;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px;
+
     }
     header .intro-text .intro-heading {
         font-family: 'Rajdhani',  sans-serif, Helvetica, Arial, sans-serif;
@@ -284,25 +326,25 @@ section h3.section-subheading {
         padding: 30px 0;
     }
     .fase1 {
-        background-image:  url("../img/provafase_1Nuova.jpg");
+        background-image:  url("../img/fase1_desktop.png");
         background-size: 100% 100%;
         background-attachment: fixed;
         background-position: center center;
     }
     #fase2 {
-        background-image:  url("../img/nuovaFase2.jpg");
+        background-image:  url("../img/fase2_desktop.png");
         background-size:  100% 100%;
         background-attachment:  fixed;
         background-position:  center center;
     }
     #fase3 {
-        background-image:  url("../img/fase3.png");
+        background-image:  url("../img/fase3_desktop.png");
         background-size:  100% 100%;
         background-attachment:  fixed;
         background-position:  center center;
     }
     #fase4 {
-        background-image:  url("../img/fase4.png");
+        background-image:  url("../img/fase4_desktop.png");
         background-size:  100% 100%;
         background-attachment:  fixed;
         background-position:  center center;
@@ -327,6 +369,10 @@ section h3.section-subheading {
     
     h2.section-heading{
 	    padding-bottom:3%;
+    }
+    
+    .pfooter {
+    color: #f5f3ed;
     }
 
 }.service-heading {
@@ -860,9 +906,12 @@ center center;
     padding-bottom:  200px;
 }
 */
+/*
 .pfooter {
     color: #f5f3ed;
+    margin-top: 25%;
 }
+*/
 .list-footer {
     list-style-type: none;
 }
